@@ -8,6 +8,10 @@ export class ApiProvider {
   constructor(public http: Http) {
     console.log('Hello ApiProvider Provider');
   }
+  
+  /**
+  *To get all the countries from API.
+  */
   public getData() {
 
   }
