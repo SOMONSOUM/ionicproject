@@ -8,5 +8,8 @@ export class ApiProvider {
   constructor(public http: Http) {
     console.log('Hello ApiProvider Provider');
   }
+  public getData() {
+
+  }
 
 }
